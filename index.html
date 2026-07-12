@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makita - Potencia y precisión en cada herramienta</title>
+    <!-- Google Fonts: Anton SC & Urbanist -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpeg" href="assets/favicon.jpg">
+</head>
+
+<body>
+    <!-- SVG filter to remove white background dynamically -->
+    <svg style="position: absolute; width: 0; height: 0;" width="0" height="0">
+        <defs>
+            <filter id="remove-white-bg">
+                <feColorMatrix type="matrix" values="
+            1 0 0 0 0
+            0 1 0 0 0
+            0 0 1 0 0
+            -2 -2 -2 6 -3
+          " />
+            </filter>
+        </defs>
+    </svg>
+
+    <header class="header">
+        <div class="header-container">
+            <!-- Makita Logo -->
+            <a href="#" class="logo" aria-label="Makita Home">
+                <img src="assets/logo.png" alt="Makita Logo" class="logo-img">
+            </a>
+            <button class="mobile-menu-toggle" aria-label="Abrir menú" aria-expanded="false" id="menuToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav" id="mainNav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#funcionalidad-detalle" class="nav-link">Funcionalidad</a></li>
+                    <li class="nav-item"><a href="#practicidad" class="nav-link">Características</a></li>
+                    <li class="nav-item"><a href="#preguntas-frecuentes" class="nav-link">Experiencia</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="hero" id="inicio">
+        <div class="hero-content">
+            <p class="hero-subtitle">Rendimiento profesional donde más lo necesites</p>
+            <h1 class="hero-title">Tu compañera ideal<br>para cada jornada</h1>
+            <div class="hero-buttons">
+                <a href="#funcionalidad" class="btn-primary">Descubrí la DCM501</a>
+                <a href="#experiencia" class="btn-secondary">Ver beneficios</a>
+            </div>
+        </div>
+    </main>
+
+    <section class="about-section" id="funcionalidad">
+        <div class="about-container-modern">
+            <!-- Header Row -->
+            <div class="about-header-centered">
+                <span class="about-tag">Sobre la DCM501</span>
+                <h2 class="about-section-title">
+                    <span class="highlight-orange">Construida</span> para acompañar cada una de tus <span
+                        class="highlight-orange">mañanas</span>
+                </h2>
+                <p class="about-section-desc-centered">
+                    Perfecta para acompañarte a donde vayas. Gracias a su diseño portátil, podés disfrutar de un café
+                    sin
+                    depender de enchufes.
+                </p>
+            </div>
+
+            <!-- 3-Column Showcase Grid -->
+            <div class="about-showcase-grid">
+                <!-- Card 1 -->
+                <div class="spec-card-modern spec-1">
+                    <div class="spec-icon-box">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path>
+                            <line x1="12" y1="2" x2="12" y2="12"></line>
+                        </svg>
+                    </div>
+                    <h3 class="spec-card-title">Fácil de usar</h3>
+                    <p class="spec-card-text">Prepará tu café caliente con
+                        solo presionar un botón de encendido.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="spec-card-modern spec-2">
+                    <div class="spec-icon-box">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                            <path d="M6 1v3"></path>
+                            <path d="M10 1v3"></path>
+                            <path d="M14 1v3"></path>
+                        </svg>
+                    </div>
+                    <h3 class="spec-card-title">Café al instante</h3>
+                    <p class="spec-card-text">Disfrutá de un café recién preparado y caliente en tan solo 5 minutos <span style="white-space: nowrap;">en cualquier obra.</span></p>
+                </div>
+
+                <!-- Center Image Column -->
+                <div class="about-image-wrapper-modern image-center-col">
+                    <video class="about-worker-img-modern" autoplay loop muted playsinline webkit-playsinline preload="auto" style="object-fit: cover; width: 100%; height: 100%;">
+                        <source src="assets/videos/KarafeCoffee_pindown.io_1783715515.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="spec-card-modern spec-3">
+                    <div class="spec-icon-box">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                            <polyline points="2 17 12 22 22 17"></polyline>
+                            <polyline points="2 12 12 17 22 12"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="spec-card-title">Doble opción</h3>
+                    <p class="spec-card-text">Prepará tu bebida favorita usando tanto café molido tradicional como
+                        cápsulas.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="spec-card-modern spec-4">
+                    <div class="spec-icon-box">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="spec-card-title">Protección activa</h3>
+                    <p class="spec-card-text">El sistema de apagado automático corta la energía de manera segura si
+                        detecta <span style="white-space: nowrap;">falta de agua.</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose-section" id="experiencia">
+        <div class="why-choose-container">
+            <h2 class="why-choose-title">¿POR QUÉ ELEGIR LA <span class="highlight-orange">DCM501</span>?</h2>
+
+            <div class="why-choose-grid">
+                <!-- Card 1 -->
+                <div class="why-card">
+                    <div class="why-icon-container">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                        </svg>
+                    </div>
+                    <h3 class="why-card-title">Te sigue el ritmo</h3>
+                    <p class="why-card-desc">Prepara hasta 4 tazas de café en una sola carga.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="why-card">
+                    <div class="why-icon-container">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 2v6"></path>
+                            <path d="M15 2v6"></path>
+                            <path d="M5 8h14v4a5 5 0 0 1-5 5H10a5 5 0 0 1-5-5V8z"></path>
+                            <path d="M12 17v5"></path>
+                        </svg>
+                    </div>
+                    <h3 class="why-card-title">Ideal para entornos exigentes</h3>
+                    <p class="why-card-desc">Soporta polvo, caídas leves y es portátil.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="why-card">
+                    <div class="why-icon-container">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.58-1 8.9A7 7 0 0 1 11 20z">
+                            </path>
+                            <path d="M19 2L11 10"></path>
+                        </svg>
+                    </div>
+                    <h3 class="why-card-title">Sin filtros de papel</h3>
+                    <p class="why-card-desc">Cuenta con un filtro de goteo permanente lavable. Olvidate de repuestos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner-section">
+        <div class="banner-content">
+            <h2 class="banner-title">
+                tu propio café,<br>tus propios términos
+            </h2>
+        </div>
+    </section>
+
+    <section class="lifestyle-section" id="funcionalidad-detalle">
+        <div class="lifestyle-container-modern">
+            <span class="lifestyle-tag">Funcionalidad</span>
+            <h2 class="lifestyle-title">Movilidad y <span class="highlight-orange">rendimiento</span> <br class="mobile-br"><span style="white-space: nowrap;">en un solo equipo</span></h2>
+
+            <div class="lifestyle-split-layout">
+                <!-- Left Column: Interactive Image Showcase -->
+                <div class="lifestyle-image-showcase">
+                    <div class="lifestyle-watermark">18V</div>
+                    <img src="assets/coffee_front_new.png" alt="Cafetera Makita DCM501" class="lifestyle-coffee-img-modern" loading="lazy">
+                    
+                    <!-- Hotspots overlay -->
+                    <div class="product-hotspots-container">
+                        <!-- Hotspot 1: Manija -->
+                        <div class="hotspot-badge active" id="hotspot-manija" data-target="01">
+                            <span class="hotspot-num-badge">01</span>
+                            <div class="hotspot-pulse"></div>
+                        </div>
+                        <!-- Hotspot 2: Tapa -->
+                        <div class="hotspot-badge" id="hotspot-tapa" data-target="02">
+                            <span class="hotspot-num-badge">02</span>
+                            <div class="hotspot-pulse"></div>
+                        </div>
+                        <!-- Hotspot 3: Portabaterías -->
+                        <div class="hotspot-badge" id="hotspot-portabaterias" data-target="03">
+                            <span class="hotspot-num-badge">03</span>
+                            <div class="hotspot-pulse"></div>
+                        </div>
+                        <!-- Hotspot 4: Taza -->
+                        <div class="hotspot-badge" id="hotspot-taza" data-target="04">
+                            <span class="hotspot-num-badge">04</span>
+                            <div class="hotspot-pulse"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Information panel -->
+                <div class="lifestyle-info-panel">
+                    <!-- Text Area with transition support -->
+                    <div class="lifestyle-detail-card">
+                        <h3 class="lifestyle-detail-title" id="lifestyleDetailTitle">MANIJA PLEGABLE</h3>
+                        <p class="lifestyle-detail-desc" id="lifestyleDetailDesc">Diseño empotrado y robusto que se pliega por completo para facilitar el <span style="white-space: nowrap;">traslado diario.</span></p>
+                    </div>
+
+                    <!-- Interactive Features Selector List -->
+                    <ul class="lifestyle-features-list">
+                        <li class="lifestyle-feature-item active" data-index="01">
+                            <span class="feature-num">01</span>
+                            <span class="feature-label">MANIJA PLEGABLE</span>
+                        </li>
+                        <li class="lifestyle-feature-item" data-index="02">
+                            <span class="feature-num">02</span>
+                            <span class="feature-label">TAPA DE DEPÓSITO</span>
+                        </li>
+                        <li class="lifestyle-feature-item" data-index="03">
+                            <span class="feature-num">03</span>
+                            <span class="feature-label">PORTABATERÍAS DUAL</span>
+                        </li>
+                        <li class="lifestyle-feature-item" data-index="04">
+                            <span class="feature-num">04</span>
+                            <span class="feature-label">TAZA TÉRMICA</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="details-section" id="especificaciones">
+        <div class="details-container">
+            <h2 class="details-main-title">Con los <span class="highlight-orange">accesorios</span> <span style="white-space: nowrap;">que necesitás</span></h2>
+
+            <div class="details-carousel-container">
+                <div class="details-carousel-viewport">
+                    <div class="details-carousel-track">
+                        <!-- Card 1 -->
+                        <div class="detail-card-item active">
+                            <div class="detail-img-box">
+                                <video class="detail-inner-video" autoplay loop muted playsinline webkit-playsinline preload="auto">
+                                    <source src="assets/videos/3.mp4" type="video/mp4">
+                                    Tu navegador no soporta la reproducción de video.
+                                </video>
+                            </div>
+                            <h3 class="detail-subtitle">Bandeja de café</h3>
+                            <p class="detail-text-desc">Permite usar cápsulas como café tradicional.</p>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="detail-card-item">
+                            <div class="detail-img-box">
+                                <video class="detail-inner-video" autoplay loop muted playsinline webkit-playsinline preload="auto">
+                                    <source src="assets/videos/1.mp4" type="video/mp4">
+                                    Tu navegador no soporta la reproducción de video.
+                                </video>
+                            </div>
+                            <h3 class="detail-subtitle">Cuchara medidora</h3>
+                            <p class="detail-text-desc"><span style="white-space: nowrap;">Acceso integrado para medir cantidades de café.</span></p>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="detail-card-item">
+                            <div class="detail-img-box">
+                                <video class="detail-inner-video" autoplay loop muted playsinline webkit-playsinline preload="auto">
+                                    <source src="assets/videos/2.mp4" type="video/mp4">
+                                    Tu navegador no soporta la reproducción de video.
+                                </video>
+                            </div>
+                            <h3 class="detail-subtitle">Depósito de agua</h3>
+                            <p class="detail-text-desc"><span style="white-space: nowrap;">Con capacidad de 240 ml y marcas de medición.</span></p>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="detail-card-item">
+                            <div class="detail-img-box">
+                                <video class="detail-inner-video" autoplay loop muted playsinline webkit-playsinline preload="auto">
+                                    <source src="assets/videos/4.mp4" type="video/mp4">
+                                    Tu navegador no soporta la reproducción de video.
+                                </video>
+                            </div>
+                            <h3 class="detail-subtitle">Tapa para taza térmica</h3>
+                            <p class="detail-text-desc">Diseñada para evitar derrames y mantiene el café protegido <span style="white-space: nowrap;">del polvo.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Indicator Dots -->
+            <div class="details-carousel-dots">
+                <span class="carousel-dot active" data-index="0"></span>
+                <span class="carousel-dot" data-index="1"></span>
+                <span class="carousel-dot" data-index="2"></span>
+                <span class="carousel-dot" data-index="3"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nueva sección interactiva de colores -->
+    <section class="colors-section" id="colores">
+        <div class="colors-container">
+            <h2 class="colors-title">Misma cafetera, <span class="highlight-orange">distintas versiones</span></h2>
+            <div class="colors-grid">
+                <div class="color-showcase">
+                    <div class="color-image-frame">
+                        <img src="assets/makita_azul.png" alt="Cafetera Makita DCM501"
+                            class="color-coffee-img" id="colorCoffeeImg">
+                        <div class="color-image-glow"></div>
+                    </div>
+                </div>
+                <div class="color-selector-panel">
+                    <h3 class="color-selector-title">Elegí el color de tu <span style="white-space: nowrap;">próxima compañera</span></h3>
+                    <p class="color-selector-desc">Acompaña cada jornada de trabajo con la robustez y confiabilidad que distinguen a la marca. Ideal para quienes buscan equipamiento pensado para <span style="white-space: nowrap;">el ritmo de la obra.</span></p>
+                    <div class="color-swatches">
+                        <button class="swatch-btn active" data-color="teal" data-name="Azul Makita"
+                            style="background-color: #007D8C;" aria-label="Azul Makita"></button>
+                        <button class="swatch-btn" data-color="rust" data-name="Rojo óxido"
+                            style="background-color: #A03A20;" aria-label="rojo óxido"></button>
+                        <button class="swatch-btn" data-color="olive" data-name="Verde oliva"
+                            style="background-color: #808000;" aria-label="verde oliva"></button>
+                    </div>
+                    <div class="color-name-display" id="colorNameDisplay">Azul Makita</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tech-specs-section" id="practicidad">
+        <div class="tech-specs-container">
+            <span class="tech-specs-tag">Características técnicas</span>
+            <h2 class="tech-specs-title">Tecnología y practicidad <br class="mobile-br">para <span style="white-space: nowrap;">cualquier entorno</span></h2>
+
+            <div class="tech-specs-grid-modern">
+                <!-- Spec Card 1: Voltaje -->
+                <div class="tech-spec-card">
+                    <div class="tech-spec-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                        </svg>
+                    </div>
+                    <div class="tech-spec-val">18V / 12V</div>
+                    <h3 class="tech-spec-name">Compatibilidad Dual</h3>
+                    <p class="tech-spec-desc">Utilizá las mismas baterías LXT de 18V o CXT de 12V de tus herramientas
+                        Makita.</p>
+                </div>
+
+                <!-- Spec Card 2: Depósito -->
+                <div class="tech-spec-card">
+                    <div class="tech-spec-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22a7 7 0 0 0 7-7c0-4.3-7-11-7-11S5 10.7 5 15a7 7 0 0 0 7 7z"></path>
+                        </svg>
+                    </div>
+                    <div class="tech-spec-val">240 mL</div>
+                    <h3 class="tech-spec-name">Capacidad Depósito</h3>
+                    <p class="tech-spec-desc">Depósito integrado extraíble ideal para preparar una taza de café estándar.</p>
+                </div>
+
+                <!-- Spec Card 3: Peso -->
+                <div class="tech-spec-card">
+                    <div class="tech-spec-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
+                            <line x1="16" y1="8" x2="2" y2="22"></line>
+                            <line x1="17.5" y1="15" x2="9" y2="15"></line>
+                        </svg>
+                    </div>
+                    <div class="tech-spec-val">1.5 Kg</div>
+                    <h3 class="tech-spec-name">Peso Ultra Ligero</h3>
+                    <p class="tech-spec-desc">Diseño sumamente compacto y liviano que facilita el transporte diario a
+                        cualquier obra.</p>
+                </div>
+
+                <!-- Spec Card 4: Apagado -->
+                <div class="tech-spec-card">
+                    <div class="tech-spec-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                        </svg>
+                    </div>
+                    <div class="tech-spec-val">Automático</div>
+                    <h3 class="tech-spec-name">Seguridad Activa</h3>
+                    <p class="tech-spec-desc">Apagado automático de protección contra funcionamiento en seco si detecta <span style="white-space: nowrap;">falta de agua.</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="preguntas-frecuentes">
+        <div class="faq-container">
+            <span class="faq-tag">Experiencia</span>
+            <h2 class="faq-title">Todo lo que necesitás saber</h2>
+
+            <div class="faq-grid">
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>¿Cómo se realiza la limpieza y mantenimiento de la cafetera?</span>
+                        <span class="faq-icon">+</span>
+                    </summary>
+                    <p class="faq-answer">
+                        El depósito de agua, el portafiltros y la taza de acero inoxidable son completamente extraíbles
+                        y lavables. Se pueden limpiar fácilmente bajo la canilla con agua y detergente suave tras cada
+                        uso para garantizar el mejor sabor.
+                    </p>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>¿Qué tipo de molienda de café es la recomendada?</span>
+                        <span class="faq-icon">+</span>
+                    </summary>
+                    <p class="faq-answer">
+                        Se aconseja utilizar café de molienda media o gruesa. Una molienda demasiado fina puede llegar a
+                        obstruir el filtro permanente de acero inoxidable, dificultando el flujo normal del agua durante
+                        la preparación.
+                    </p>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>¿Viene con batería y cargador incluidos?</span>
+                        <span class="faq-icon">+</span>
+                    </summary>
+                    <p class="faq-answer">
+                        No, el producto se vende únicamente como herramienta (solo cuerpo). Está pensado para
+                        complementar tu kit de herramientas Makita y aprovechar las baterías que ya posees.
+                    </p>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>¿Se pueden utilizar tazas comunes además de la que viene incluida?</span>
+                        <span class="faq-icon">+</span>
+                    </summary>
+                    <p class="faq-answer">
+                        Sí, aunque incluye una taza de acero inoxidable diseñada a medida, podés usar otras tazas de tu
+                        preferencia siempre y cuando su altura máxima no supere los 90 mm para que quepan correctamente
+                        en el espacio de goteo.
+                    </p>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>¿Es resistente a salpicaduras o al polvo?</span>
+                        <span class="faq-icon">+</span>
+                    </summary>
+                    <p class="faq-answer">
+                        Sí, cuenta con cubiertas protectoras para la sección de la batería que evitan el ingreso de
+                        polvo, suciedad de obra y salpicaduras accidentales de líquidos, asegurando el correcto
+                        funcionamiento en cualquier ambiente.
+                    </p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner-tool-autonomy" id="autonomia">
+        <div class="banner-autonomy-content">
+            <h2 class="banner-autonomy-title">LLEVA TU AUTONOMIA EN<br class="desktop-only"> TU CAJA<br
+                    class="mobile-only"> DE HERRAMIENTAS</h2>
+            <a href="https://www.makita.es/product/dcm501.html" target="_blank" rel="noopener" class="btn-primary">Conocer más</a>
+        </div>
+    </section>
+    <footer class="footer-section" id="contacto">
+        <div class="footer-container">
+            <!-- Columna 1: Marca, Descripción y Redes Sociales -->
+            <div class="footer-col brand-col">
+                <img src="assets/logo.png" alt="Makita Logo" class="footer-logo">
+                <p class="footer-description">
+                    Líderes globales en el desarrollo de herramientas de alto rendimiento diseñadas para soportar las
+                    jornadas más exigentes.
+                </p>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/makita_spain/" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+                    <a href="https://www.facebook.com/MakitaESP" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+                    <a href="https://www.youtube.com/user/makitaespana" target="_blank" rel="noopener" aria-label="Youtube">Youtube</a>
+                </div>
+            </div>
+
+            <!-- Columna 2: Navegación -->
+            <div class="footer-col">
+                <h3 class="footer-heading">Menú</h3>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#funcionalidad-detalle">Funcionalidad</a></li>
+                    <li><a href="#practicidad">Características</a></li>
+                    <li><a href="#preguntas-frecuentes">Experiencia</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 3: Soporte / Contacto -->
+            <div class="footer-col">
+                <h3 class="footer-heading">Contacto</h3>
+                <ul class="footer-links">
+                    <li><a href="https://www.makita.es/contact-us.html" target="_blank" rel="noopener">Escribinos</a></li>
+                    <li><a href="mailto:central@makita.es">central@makita.es</a></li>
+                    <li><a href="tel:+34916711262">(+34) 91 671 12 62</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 4: Newsletter -->
+            <div class="footer-col newsletter-col">
+                <h3 class="footer-heading">Novedades</h3>
+                <p class="newsletter-text">Suscríbete para recibir lanzamientos y <span style="white-space: nowrap;">ofertas exclusivas.</span></p>
+                <form class="newsletter-form" onsubmit="event.preventDefault(); alert('¡Gracias por suscribirte!');">
+                    <input type="email" placeholder="Tu correo electrónico" class="newsletter-input" required>
+                    <button type="submit" class="btn-newsletter">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-container">
+                <span class="footer-copyright">© 2026 Makita. Todos los derechos reservados.</span>
+                <div class="footer-legal">
+                    <a href="https://www.makita.es/terms-of-use.html" target="_blank" rel="noopener">Términos y condiciones</a>
+                    <span class="divider">|</span>
+                    <a href="https://www.makita.es/privacy-policy.html" target="_blank" rel="noopener">Política de privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Hamburger Menu Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const mainNav = document.getElementById('mainNav');
+
+        menuToggle.addEventListener('click', () => {
+            const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+            menuToggle.setAttribute('aria-expanded', !isExpanded);
+            mainNav.classList.toggle('active');
+            menuToggle.classList.toggle('open');
+        });
+
+        // Smooth scrolling helper for anchors
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    e.preventDefault();
+                    
+                    // Close mobile menu if open
+                    if (mainNav && mainNav.classList.contains('active')) {
+                        mainNav.classList.remove('active');
+                        menuToggle.classList.remove('open');
+                        menuToggle.setAttribute('aria-expanded', 'false');
+                    }
+
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Product Gallery Slider
+        const mainSliderImg = document.getElementById('mainSliderImg');
+        const thumbCards = document.querySelectorAll('.thumb-card');
+        const prevBtn = document.querySelector('.slider-arrow.prev');
+        const nextBtn = document.querySelector('.slider-arrow.next');
+
+        if (mainSliderImg && thumbCards.length > 0) {
+            const imagesList = Array.from(thumbCards).map(thumb => thumb.getAttribute('data-src'));
+            let currentIndex = 0;
+
+            function updateSlider(index) {
+                currentIndex = index;
+                mainSliderImg.src = imagesList[currentIndex];
+                thumbCards.forEach((thumb, i) => {
+                    if (i === currentIndex) {
+                        thumb.classList.add('active');
+                    } else {
+                        thumb.classList.remove('active');
+                    }
+                });
+            }
+
+            thumbCards.forEach((thumb, index) => {
+                thumb.addEventListener('click', () => {
+                    updateSlider(index);
+                });
+            });
+
+            if (prevBtn) {
+                prevBtn.addEventListener('click', () => {
+                    let nextIndex = currentIndex - 1;
+                    if (nextIndex < 0) nextIndex = imagesList.length - 1;
+                    updateSlider(nextIndex);
+                });
+            }
+
+            if (nextBtn) {
+                nextBtn.addEventListener('click', () => {
+                    let nextIndex = currentIndex + 1;
+                    if (nextIndex >= imagesList.length) nextIndex = 0;
+                    updateSlider(nextIndex);
+                });
+            }
+        }
+
+        // Interactive Hotspots & Features selector for Lifestyle Section
+        const hotspots = document.querySelectorAll('.hotspot-badge');
+        const featureItems = document.querySelectorAll('.lifestyle-feature-item');
+        const detailTitle = document.getElementById('lifestyleDetailTitle');
+        const detailDesc = document.getElementById('lifestyleDetailDesc');
+
+        const featuresData = {
+            '01': {
+                title: 'MANIJA PLEGABLE',
+                desc: 'Diseño empotrado y robusto que se pliega por completo para facilitar el <span style="white-space: nowrap;">traslado diario.</span>'
+            },
+            '02': {
+                title: 'TAPA DE DEPÓSITO',
+                desc: 'Protección hermética que evita el ingreso de polvo o residuos de obra en el compartimiento de agua.'
+            },
+            '03': {
+                title: 'PORTABATERÍAS DUAL',
+                desc: 'Máxima compatibilidad. Compartimento listo para usar tus baterías de Ion sin necesidad de adaptadores.'
+            },
+            '04': {
+                title: 'TAZA TÉRMICA',
+                desc: 'Diseñada a medida para encastrar a la perfección en la máquina, conservando el calor por más tiempo.'
+            }
+        };
+
+        // Set transition style programmatically for description text
+        if (detailTitle && detailDesc) {
+            detailTitle.style.transition = 'opacity 0.25s ease-in-out';
+            detailDesc.style.transition = 'opacity 0.25s ease-in-out';
+        }
+
+        function activateFeature(index) {
+            // Remove active classes
+            hotspots.forEach(h => h.classList.remove('active'));
+            featureItems.forEach(item => item.classList.remove('active'));
+
+            // Find matching hotspot and item
+            const activeHotspot = document.querySelector(`.hotspot-badge[data-target="${index}"]`);
+            const activeItem = document.querySelector(`.lifestyle-feature-item[data-index="${index}"]`);
+
+            if (activeHotspot) activeHotspot.classList.add('active');
+            if (activeItem) activeItem.classList.add('active');
+
+            // Update content with transition
+            const data = featuresData[index];
+            if (data && detailTitle && detailDesc) {
+                detailTitle.style.opacity = '0';
+                detailDesc.style.opacity = '0';
+                
+                setTimeout(() => {
+                    detailTitle.textContent = data.title;
+                    detailDesc.innerHTML = data.desc;
+                    detailTitle.style.opacity = '1';
+                    detailDesc.style.opacity = '1';
+                }, 250);
+            }
+        }
+
+        // Add event listeners to hotspots
+        hotspots.forEach(hotspot => {
+            hotspot.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const target = hotspot.getAttribute('data-target');
+                activateFeature(target);
+            });
+            hotspot.addEventListener('mouseenter', () => {
+                const target = hotspot.getAttribute('data-target');
+                activateFeature(target);
+            });
+        });
+
+        // Add event listeners to list items
+        featureItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const index = item.getAttribute('data-index');
+                activateFeature(index);
+            });
+            item.addEventListener('mouseenter', () => {
+                const index = item.getAttribute('data-index');
+                activateFeature(index);
+            });
+        });
+
+        // Interacción de clic/tap para Características Técnicas en móviles
+        const techCards = document.querySelectorAll('.tech-spec-card');
+        techCards.forEach(card => {
+            card.addEventListener('click', () => {
+                const isCurrentlyActive = card.classList.contains('active');
+                techCards.forEach(c => c.classList.remove('active'));
+                if (!isCurrentlyActive) {
+                    card.classList.add('active');
+                }
+            });
+        });
+
+        // Interacción de clic/tap para Tarjetas de ¿Por qué elegir? en móviles
+        const whyCards = document.querySelectorAll('.why-card');
+        whyCards.forEach(card => {
+            card.addEventListener('click', () => {
+                const isCurrentlyActive = card.classList.contains('active');
+                whyCards.forEach(c => c.classList.remove('active'));
+                if (!isCurrentlyActive) {
+                    card.classList.add('active');
+                }
+            });
+        });
+
+        // IntersectionObserver para activar y desplegar las tarjetas de "¿Por qué elegir?" al hacer scroll en móviles
+        if (window.innerWidth <= 768) {
+            const whyCardObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        whyCards.forEach(c => c.classList.remove('active'));
+                        entry.target.classList.add('active');
+                    } else {
+                        entry.target.classList.remove('active');
+                    }
+                });
+            }, {
+                rootMargin: '-35% 0px -35% 0px', // Se activa en la zona central de la pantalla
+                threshold: 0.1
+            });
+
+            whyCards.forEach(card => {
+                whyCardObserver.observe(card);
+            });
+        }
+
+
+
+        // Animación al hacer scroll para los títulos de sección
+        const scrollTitles = document.querySelectorAll('.about-section-title, .why-choose-title, .banner-title, .lifestyle-title, .details-main-title, .colors-title, .tech-specs-title, .faq-title, .faq-item, .banner-autonomy-title, .footer-section, .spec-card-modern, .about-image-wrapper-modern, .why-card, .details-carousel-container, .tech-spec-card, .banner-section, .banner-tool-autonomy');
+        if (scrollTitles.length > 0) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.15
+            });
+            scrollTitles.forEach(title => observer.observe(title));
+        }
+
+        // Details Carousel Logic
+        const detailsTrack = document.querySelector('.details-carousel-track');
+        const detailsCards = document.querySelectorAll('.details-carousel-container .detail-card-item');
+        const detailsDots = document.querySelectorAll('.carousel-dot');
+        let detailsCurrentIndex = 0;
+
+        function updateDetailsCarousel(index) {
+            if (index < 0) index = detailsCards.length - 1;
+            if (index >= detailsCards.length) index = 0;
+            
+            detailsCurrentIndex = index;
+            detailsTrack.style.transform = `translateX(-${index * 100}%)`;
+
+            // Update dots
+            detailsDots.forEach((dot, idx) => {
+                if (idx === index) {
+                    dot.classList.add('active');
+                } else {
+                    dot.classList.remove('active');
+                }
+            });
+
+            // Control active state and videos inside carousel cards
+            detailsCards.forEach((card, idx) => {
+                if (idx === index) {
+                    card.classList.add('active');
+                } else {
+                    card.classList.remove('active');
+                }
+
+                const video = card.querySelector('video');
+                if (video) {
+                    if (idx === index) {
+                        video.play().catch(err => console.log('Autoplay prevented:', err));
+                    } else {
+                        video.pause();
+                        video.currentTime = 0;
+                    }
+                }
+            });
+        }
+
+        detailsDots.forEach(dot => {
+            dot.addEventListener('click', () => {
+                const index = parseInt(dot.getAttribute('data-index'), 10);
+                updateDetailsCarousel(index);
+            });
+        });
+
+        // Touch event listeners for mobile swipe support
+        let touchStartX = 0;
+        let touchEndX = 0;
+        const detailsViewport = document.querySelector('.details-carousel-viewport');
+
+        if (detailsViewport) {
+            detailsViewport.addEventListener('touchstart', (e) => {
+                touchStartX = e.changedTouches[0].screenX;
+            }, { passive: true });
+
+            detailsViewport.addEventListener('touchend', (e) => {
+                touchEndX = e.changedTouches[0].screenX;
+                handleDetailsSwipe();
+            }, { passive: true });
+        }
+
+        function handleDetailsSwipe() {
+            const swipeThreshold = 50; // Minimum swipe distance in pixels
+            if (touchEndX < touchStartX - swipeThreshold) {
+                // Swiped Left -> Go to next card
+                if (detailsCurrentIndex < detailsCards.length - 1) {
+                    updateDetailsCarousel(detailsCurrentIndex + 1);
+                }
+            } else if (touchEndX > touchStartX + swipeThreshold) {
+                // Swiped Right -> Go to previous card
+                if (detailsCurrentIndex > 0) {
+                    updateDetailsCarousel(detailsCurrentIndex - 1);
+                }
+            }
+        }
+
+        // Initialize carousel on load
+        updateDetailsCarousel(0);
+
+        // Color Picker Interaction
+        const swatchBtns = document.querySelectorAll('.swatch-btn');
+        const colorCoffeeImg = document.getElementById('colorCoffeeImg');
+        const colorNameDisplay = document.getElementById('colorNameDisplay');
+        const colorDescDisplay = document.querySelector('.color-selector-desc');
+
+        const colorDescriptions = {
+            'teal': 'Acompaña cada jornada de trabajo con la robustez y confiabilidad que distinguen a la marca. Ideal para quienes buscan equipamiento pensado para <span style="white-space: nowrap;">el ritmo de la obra.</span>',
+            'rust': 'Aportá carácter y calidez a tu espacio de trabajo. Una tonalidad de rojo óxido ideal para ambientes industriales que complementa perfectamente tus herramientas y <span style="white-space: nowrap;">estilo de vida activo.</span>',
+            'olive': 'Inspirada en el equipamiento outdoor y táctico. Este acabado verde oliva es ideal para acompañarte en tus salidas al aire libre, obras de campo y <span style="white-space: nowrap;">aventuras cotidianas.</span>'
+        };
+
+        // Smooth opacity transition for description text change
+        if (colorDescDisplay) {
+            colorDescDisplay.style.transition = 'opacity 0.25s ease-in-out';
+        }
+
+        swatchBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                swatchBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                // Get values
+                const color = btn.getAttribute('data-color');
+                const name = btn.getAttribute('data-name');
+
+                // Update image src dynamically with smooth opacity transition
+                colorCoffeeImg.style.opacity = '0';
+                setTimeout(() => {
+                    if (color === 'teal') {
+                        colorCoffeeImg.src = 'assets/makita_azul.png';
+                    } else if (color === 'rust') {
+                        colorCoffeeImg.src = 'assets/makita_rojo.png';
+                    } else if (color === 'olive') {
+                        colorCoffeeImg.src = 'assets/makita_verde.png';
+                    }
+                    colorCoffeeImg.style.opacity = '1';
+                }, 200);
+
+                // Update text displays with transition
+                colorNameDisplay.textContent = name;
+                
+                if (colorDescDisplay && colorDescriptions[color]) {
+                    colorDescDisplay.style.opacity = '0';
+                    setTimeout(() => {
+                        colorDescDisplay.innerHTML = colorDescriptions[color];
+                        colorDescDisplay.style.opacity = '1';
+                    }, 250);
+                }
+            });
+        });
+
+        // Touch event listeners for color showcase swipe support on mobile
+        let colorTouchStartX = 0;
+        let colorTouchEndX = 0;
+        const colorFrame = document.querySelector('.color-image-frame');
+        const colorOrder = ['teal', 'rust', 'olive'];
+
+        if (colorFrame) {
+            colorFrame.addEventListener('touchstart', (e) => {
+                colorTouchStartX = e.changedTouches[0].screenX;
+            }, { passive: true });
+
+            colorFrame.addEventListener('touchend', (e) => {
+                colorTouchEndX = e.changedTouches[0].screenX;
+                handleColorSwipe();
+            }, { passive: true });
+        }
+
+        function handleColorSwipe() {
+            const swipeThreshold = 50; // Minimum swipe distance in pixels
+            const activeSwatch = document.querySelector('.swatch-btn.active');
+            if (!activeSwatch) return;
+
+            const currentColor = activeSwatch.getAttribute('data-color');
+            let currentIndex = colorOrder.indexOf(currentColor);
+
+            if (colorTouchEndX < colorTouchStartX - swipeThreshold) {
+                // Swiped Left -> Next color
+                if (currentIndex < colorOrder.length - 1) {
+                    const nextColor = colorOrder[currentIndex + 1];
+                    const nextButton = document.querySelector(`.swatch-btn[data-color="${nextColor}"]`);
+                    if (nextButton) nextButton.click();
+                }
+            } else if (colorTouchEndX > colorTouchStartX + swipeThreshold) {
+                // Swiped Right -> Previous color
+                if (currentIndex > 0) {
+                    const prevColor = colorOrder[currentIndex - 1];
+                    const prevButton = document.querySelector(`.swatch-btn[data-color="${prevColor}"]`);
+                    if (prevButton) prevButton.click();
+                }
+            }
+        }
+
+        // Scrollspy: marcar el menú según la sección actual
+        const spySections = document.querySelectorAll('main[id], section[id], footer[id]');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        const scrollSpyObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    if (id) {
+                        navLinks.forEach(link => {
+                            if (link.getAttribute('href') === `#${id}`) {
+                                link.classList.add('active');
+                            } else {
+                                link.classList.remove('active');
+                            }
+                        });
+                    }
+                }
+            });
+        }, {
+            rootMargin: '-30% 0px -60% 0px' // Se activa en base al área central-superior de la pantalla
+        });
+
+        spySections.forEach(section => {
+            scrollSpyObserver.observe(section);
+        });
+    </script>
+</body>
+
+</html>
