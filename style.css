@@ -2862,7 +2862,7 @@ body {
     overflow: hidden;
     opacity: 0;
     transform: translateY(30px);
-    transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), transform 0.8s cubic-bezier(0.25, 1, 0.5, 1), border-color 0.4s ease, background 0.4s ease, box-shadow 0.4s ease;
+    transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), border-color 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
 }
 
 .tech-spec-card.visible {
@@ -2953,18 +2953,17 @@ body {
     max-width: 240px;
     z-index: 2;
     opacity: 0;
-    max-height: 0;
-    transform: translateY(10px);
-    transition: opacity 0.4s ease, max-height 0.4s ease, transform 0.4s ease, margin-top 0.4s ease;
-    overflow: hidden;
+    transform: translateY(8px);
+    transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
+    margin-top: 0.5rem;
+    pointer-events: none;
 }
 
 .tech-spec-card:hover .tech-spec-desc,
 .tech-spec-card.active .tech-spec-desc {
     opacity: 1;
-    max-height: 120px;
     transform: translateY(0);
-    margin-top: 0.5rem;
+    color: rgba(255, 255, 255, 0.95);
 }
 
 /* Specific responsiveness overrides for mobile specs */
